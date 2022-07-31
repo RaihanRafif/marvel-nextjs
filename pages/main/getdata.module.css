@@ -1,0 +1,77 @@
+.wrapper {
+    display: flex;
+    padding-top: 5%;
+}
+
+.preview {
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.previewCover {
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    /* padding-top: 15%; */
+}
+
+.buttonPreview {
+    /* width: 100%; */
+    height: 2rem;
+    bottom: 0;
+    /* position: absolute; */
+}
+
+.previewDescription {
+    width: 100%;
+    /* height: 28%; */
+    margin: auto;
+    /* padding-top: 7%; */
+    /* background-color: blue; */
+}
+
+.movieSection {
+    /* height: 100vh; */
+    /* width: 70%; */
+    overflow: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+.headerSection {
+    background-color: aqua;
+    width: 100%;
+}
+
+.movieCard {
+    margin-bottom: 20px;
+}
+
+.cardFooter {
+    bottom: 0;
+    position: relative;
+}
+
+.marvelIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.modalWrapper {
+    display: flex;
+}
+
+.modalDetail {
+    padding-left: 2%;
+}
+
+.modalTagsDetail {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 27.5rem;
+    padding: 20px;
+}
